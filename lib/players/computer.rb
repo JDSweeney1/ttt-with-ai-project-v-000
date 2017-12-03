@@ -12,7 +12,7 @@ module Players
     ]
 
     def move(board)
-      sleep(0.15)
+      #sleep(0.15)
       move = nil
 
      if board.turn_count == 0
