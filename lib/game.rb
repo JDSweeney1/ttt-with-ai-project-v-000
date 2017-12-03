@@ -38,7 +38,7 @@ class Game
       computer1 = 0
       computer2 = 0
       draws = 0
-      until counter == 100 do
+      until counter == 101 do
         new_game = self.wargames
         new_game.play
         puts "After #{counter} game(s) played: Computer 1 = #{computer1} - Computer 2 = #{computer2} - Cat's Game(s) = (#{counter})"
