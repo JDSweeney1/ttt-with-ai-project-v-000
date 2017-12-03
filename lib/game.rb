@@ -44,6 +44,7 @@ class Game
         puts "After #{counter} game(s) played: Computer 1 = #{computer1} - Computer 2 = #{computer2} - Cat's Game(s) = (#{counter})"
         counter += 1
         end
+        self.ask
     elsif input == "1"
       puts "Would you like to go first or second?"
       input2 = gets.chop
