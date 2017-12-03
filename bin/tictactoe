@@ -11,3 +11,4 @@ puts "otherwise input the number of desired players(1 or 2)"
 loop do
   Game.game_choice
   Game.ask
+end
